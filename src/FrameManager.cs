@@ -53,9 +53,9 @@ public static class FrameManager
         mem.WriteByteRange(CustomFunctionAddr, func);
 
         // Write data used by the code
-        mem.WriteS32(CustomFunctionAddr + func.Length + 0, game.MemoryManagerAddress + 0); // internalPool.pNextFree
-        mem.WriteS32(CustomFunctionAddr + func.Length + 4, game.FrameMngrAddress + 4);     // nextFrame
-        mem.WriteS32(CustomFunctionAddr + func.Length + 8, game.FrameMngrAddress + 10);    // nextFrameSize
+        mem.WriteS32(CustomFunctionAddr + func.Length + 0, game.MemoryManagerAddress + 0); // g_MemoryManager.internalPool.pNextFree
+        mem.WriteS32(CustomFunctionAddr + func.Length + 4, game.NextFrameAddress);         // g_FrameMngr.nextFrame
+        mem.WriteS32(CustomFunctionAddr + func.Length + 8, game.NextFrameSizeAddress);     // g_FrameMngr.nextFrameSize
     }
 
     public static void EnableCustomFunction(IMemoryApi mem, Game game)

@@ -6,7 +6,8 @@ public abstract class Game
 
     public abstract int MemoryManagerAddress { get; }
 
-    public abstract int FrameMngrAddress { get; }
+    public abstract int NextFrameAddress { get; }
+    public abstract int NextFrameSizeAddress { get; }
     public abstract Frame[] Frames { get; }
 
     public abstract int JoypadScanCallAddress { get; }
