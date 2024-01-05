@@ -20,6 +20,7 @@ public partial class MainForm : Form, IExternalToolForm
         GamesComboBox.Items.Add(new Rayman3_NintendoE3Approval_20020418());
         GamesComboBox.Items.Add(new Rayman3_E3GameCube_20020513());
         GamesComboBox.Items.Add(new Rayman3_E3_20020516());
+        GamesComboBox.Items.Add(new Rayman3_LaRonde_20020719());
 
         GamesComboBox.SelectedIndex = 0;
     }
