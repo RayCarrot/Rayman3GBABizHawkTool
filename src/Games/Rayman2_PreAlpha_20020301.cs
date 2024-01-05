@@ -10,7 +10,7 @@ public class Rayman2_PreAlpha_20020301 : Game
     public override int NextFrameSizeAddress => 0x03002874;
     public override Frame[] Frames => new Frame[]
     {
-        new(0x08000280, 0xc,  "Game Logo"),
+        new(0x08000280, 0xc,  "Title Screen"),
         new(0x080108d2, null, "Slides (Unused)"),
         new(0x0801037c, 0x8,  "Map 0 (Unused)"),
         new(0x080103d4, 0x8,  "Map 1"),

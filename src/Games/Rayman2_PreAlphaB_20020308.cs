@@ -11,7 +11,7 @@ public class Rayman2_PreAlphaB_20020308 : Game
     public override Frame[] Frames => new Frame[]
     {
         new(0x080154dc, 0x14, "Ubisoft Logo"),
-        new(0x08000280, 0x10, "Game Logo"),
+        new(0x08000280, 0x10, "Title Screen"),
         new(0x08013ee0, null, "Map 0 (Unused)"),
         new(0x08014140, 0xc,  "Map 1"),
         new(0x080143fc, null, "Map 2 (Unused)"),

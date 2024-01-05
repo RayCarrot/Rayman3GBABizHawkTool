@@ -18,6 +18,7 @@ public partial class MainForm : Form, IExternalToolForm
         GamesComboBox.Items.Add(new Rayman2_PreAlphaB_20020308());
         GamesComboBox.Items.Add(new Rayman3_FocusGroup_20020318());
         GamesComboBox.Items.Add(new Rayman3_NintendoE3Approval_20020418());
+        GamesComboBox.Items.Add(new Rayman3_E3GameCube_20020513());
 
         GamesComboBox.SelectedIndex = 0;
     }

@@ -11,7 +11,7 @@ public class Rayman3_FocusGroup_20020318 : Game
     public override Frame[] Frames => new Frame[]
     {
         new(0x0801cea8, 0x14, "Ubisoft Logo"),
-        new(0x08000290, 0x10, "Game Logo"),
+        new(0x08000290, 0x10, "Title Screen"),
         new(0x0801b954, 0xc,  "Map 0"),
         new(0x0801bb94, 0xc,  "Map 1"),
         new(0x0801bdc8, null, "Map 2 (Unused)"),
