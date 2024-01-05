@@ -5,7 +5,7 @@ public class Frame
     public Frame(int constructorAddress, byte? classSize, string name)
     {
         ConstructorAddress = constructorAddress;
-        ClassSize = classSize ?? 0x20; // If unknown, default to 32 which should be big enough
+        ClassSize = classSize ?? 0x50; // If unknown, default to 0x50 which should be big enough
         Name = name;
     }
 

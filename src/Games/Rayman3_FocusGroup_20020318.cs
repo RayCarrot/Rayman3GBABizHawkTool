@@ -1,8 +1,8 @@
 ﻿namespace Rayman3GBABizHawkTool;
 
-public class Rayman2_FocusGroup_20020318 : Game
+public class Rayman3_FocusGroup_20020318 : Game
 {
-    public override string Name => "Rayman 2 - Focus Group (2002/03/18)";
+    public override string Name => "Rayman 3 - Focus Group (2002/03/18)";
 
     public override int MemoryManagerAddress => 0x03002724;
 
