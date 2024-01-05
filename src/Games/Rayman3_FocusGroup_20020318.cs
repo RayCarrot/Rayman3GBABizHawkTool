@@ -22,7 +22,7 @@ public class Rayman3_FocusGroup_20020318 : Game
         new(0x0801c860, 0xc,  "Map 7 (Unused)"),
         new(0x0801ca88, 0xc,  "Map 8 (Unused)"),
         new(0x0801ccb0, 0xc,  "Map 9 (Unused)"),
-        new(0x0801ccce, null, "Map 10"),
+        new(0x0801ccce, null, "Map 10 (Unused)"),
     };
 
     public override int JoypadScanCallAddress => 0x0800023c;
