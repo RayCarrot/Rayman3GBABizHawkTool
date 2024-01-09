@@ -13,21 +13,24 @@ public class Rayman3_NintendoE3Approval_20020418 : Game
         new(0x0802fb10, 0x18, "Ubisoft Logo"),
         new(0x080011b8, 0x8,  "Title Screen"),
         new(0x080006d0, 0x44, "Main Menu"),
-        //new(0x080009c0, null, "?"), // Crashes
-        new(0x0800110c, null, "GameCube Link (Unused)"),
-        new(0x0802d15c, 0x10, "Map 0"),
-        new(0x0802d550, 0x10, "Map 1"),
-        new(0x0802d91c, 0x10, "Map 2"),
-        new(0x0802dd10, null, "Map 3 (Unused)"),
-        new(0x0802e6e8, null, "Map 4 (Unused)"),
-        new(0x0802e9e4, 0x10, "Map 5"),
-        new(0x0802f598, 0x10, "Map 6"),
-        new(0x0802f5b0, null, "Map 7 (Unused)"),
-        new(0x0802e0cc, 0x14, "Map 8"),
-        new(0x0802e3e0, null, "Map 9 (Unused)"),
-        new(0x0802ecf0, 0x10, "Map 10 (Unused)"),
-        new(0x0802efb4, null, "Map 11 (Unused)"),
-        //new(0x0802efde, null, "Map 12 (Unused)"), // Doesn't load
+        new(0x0800110c, 0x30, "GameCube Link"), // Unknown frame size
+
+        // new(0x0800086c, 0x2c, "Old Main Menu"), // Unknown frame size - crashes
+        // new(0x080009c0, 0x2c, "Old Multiplayer Menu"), // Unknown frame size - crashes
+
+        new(0x0802d15c, 0x10, "Map 0 - The Woods of Light"),
+        new(0x0802d550, 0x10, "Map 1 - The Woods of Light"),
+        new(0x0802d91c, 0x10, "Map 2 - The Fairy Glade"),
+        new(0x0802dd10, 0x14, "Map 3 - The Fairy Glade"), // Unknown frame size
+        new(0x0802e6e8, 0x14, "Map 4 - The Echoing Caves"), // Unknown frame size
+        new(0x0802e9e4, 0x10, "Map 5 - The Echoing Caves"),
+        new(0x0802f598, 0x10, "Map 6 - Beneath the Sanctuary of Rock and Lava"),
+        new(0x0802f5b0, 0x14, "Map 7 - Beneath the Sanctuary of Rock and Lava"), // Unknown frame size
+        new(0x0802e0cc, 0x14, "Map 8 - The Precipice"),
+        new(0x0802e3e0, 0x14, "Map 9 - The Precipice"), // Unknown frame size
+        new(0x0802ecf0, 0x10, "Map 10 - The Sanctuary of Rock and Lava"),
+        new(0x0802efb4, 0x14, "Map 11 - The Sanctuary of Rock and Lava"), // Unknown frame size
+        // new(0x0802efde, 0x14, "Map 12 - Missile Race #1"), // Unknown frame size - doesn't load because of outdated tilekit format
     };
 
     public override int JoypadScanCallAddress => 0x08000284;

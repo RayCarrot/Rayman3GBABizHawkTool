@@ -12,17 +12,18 @@ public class Rayman3_FocusGroup_20020318 : Game
     {
         new(0x0801cea8, 0x14, "Ubisoft Logo"),
         new(0x08000290, 0x10, "Title Screen"),
-        new(0x0801b954, 0xc,  "Map 0"),
-        new(0x0801bb94, 0xc,  "Map 1"),
-        new(0x0801bdc8, null, "Map 2 (Unused)"),
-        new(0x0801bff0, 0xc,  "Map 3 (Unused)"),
-        new(0x0801c218, 0xc,  "Map 4"),
-        new(0x0801c440, 0xc,  "Map 5"),
-        new(0x0801c638, null, "Map 6 (Unused)"),
-        new(0x0801c860, 0xc,  "Map 7 (Unused)"),
-        new(0x0801ca88, 0xc,  "Map 8 (Unused)"),
-        new(0x0801ccb0, 0xc,  "Map 9 (Unused)"),
-        new(0x0801ccce, null, "Map 10 (Unused)"),
+
+        new(0x0801b954, 0xc,  "Map 0 - The Woods of Light"),
+        new(0x0801bb94, 0xc,  "Map 1 - The Woods of Light"),
+        new(0x0801bdc8, 0xc,  "Map 2 - The Fairy Glade"), // Unknown frame size
+        new(0x0801bff0, 0xc,  "Map 3 - The Fairy Glade"),
+        new(0x0801c218, 0xc,  "Map 4 - The Precipice"),
+        new(0x0801c440, 0xc,  "Map 5 - The Precipice"),
+        new(0x0801c638, 0xc,  "Map 6 - The Echoing Caves"), // Unknown frame size
+        new(0x0801c860, 0xc,  "Map 7 - The Echoing Caves"),
+        new(0x0801ca88, 0xc,  "Map 8 - The Sanctuary of Rock and Lava"),
+        new(0x0801ccb0, 0xc,  "Map 9 - The Sanctuary of Rock and Lava"),
+        new(0x0801ccce, 0xc,  "Map 10 - Missile Race #1"), // Unknown frame size
     };
 
     public override int JoypadScanCallAddress => 0x0800023c;

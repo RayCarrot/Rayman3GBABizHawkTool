@@ -10,9 +10,9 @@ public class Rayman3_LaRonde_20020719 : Game
     public override int NextFrameSizeAddress => 0x0300205a;
     public override Frame[] Frames => new Frame[]
     {
-        new(0x0806ebc0, 0x3c, "Worldmap, maps 0-42 (Unused)"), // You can access the first 43 maps from here
-        new(0x08074140, 0x20, "Map 43 (Unused)"),
-        new(0x0807a52c, 0x20, "Map 44 (Unused)"),
+        new(0x0806ebc0, 0x3c, "Worldmap (maps 0-42)"), // You can access the first 43 maps from here
+        new(0x08074140, 0x20, "Map 43 - The Sanctuary of Rock and Lava"),
+        new(0x0807a52c, 0x20, "Map 44 - The Sanctuary of Stone and Fire"),
         // Map 45-53 are multiplayer and can be accessed normally
     };
 
